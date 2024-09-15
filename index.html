@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pratik Tripathi's personal portfolio showcasing frontend development skills and projects."
+    />
+    <meta
+      name="keywords"
+      content="Pratik Tripathi, Frontend Developer, React, JavaScript, Portfolio"
+    />
+    <title>Pratik Tripathi</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="assets/sticker.png" alt="Pratik's Logo"
+      /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="mailto:pratiktripathi198@gmail.com" target="_blank">
+          <button><i class="fa fa-envelope"></i> Get In Touch</button>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Pratik Tripathi</h1>
+        <h3 class="text-animate">A <span class="multiple-text"></span></h3>
+        <p>
+          As a frontend developer, I specialize in building responsive,
+          user-focused websites that combine striking design with solid
+          functionality. I excel at creating interactive interfaces that deliver
+          seamless and engaging user experiences.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://github.com/PRATIK5311"
+            target="_blank"
+            class="btn"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/pratik-tripathi-13a219238/"
+            class="btn"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://x.com/PRATIKTRIPATHI_" target="_blank" class="btn"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://medium.com/@pratiktripathi198"
+            target="_blank"
+            class="btn"
+            ><i class="bx bxl-medium-square"></i
+          ></a>
+        </div>
+        <button class="download-cv">
+          <a href="assets/16f87a2a909a06634e61d63d57e79bb0.jpg" download
+            >Download Resume <i class="fa fa-download"></i
+          ></a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img
+          src="assets/laptop wave (1).png"
+          alt="Bitmoji of Pratik with laptop"
+        />
+      </div>
+    </section>
+
+    <!--Experience Section -->
+    <section class="about" id="experience">
+      <div class="tech-stack">
+        <h1>Tech Stack & Tools</h1>
+        <div class="single-skill">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <div class="skill-container">
+              <img src="assets/js.png" alt="JavaScript Logo" />
+            </div>
+          </a>
+
+          <a href="https://reactjs.org/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/react.png" alt="React Logo" />
+            </div>
+          </a>
+
+          <a href="https://redux.js.org/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/redux.png" alt="Redux Logo" />
+            </div>
+          </a>
+
+          <a href="https://www.typescriptlang.org/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/typescript_plain.png" alt="TypeScript Logo" />
+            </div>
+          </a>
+
+          <a href="https://nextjs.org/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/nextjs.png" alt="Next.js Logo" />
+            </div>
+          </a>
+
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+          >
+            <div class="skill-container">
+              <img src="assets/html.png" alt="HTML Logo" />
+            </div>
+          </a>
+
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+          >
+            <div class="skill-container">
+              <img src="assets/css.png" alt="CSS Logo" />
+            </div>
+          </a>
+
+          <a href="https://tailwindcss.com/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/tailwindcssog.png" alt="Tailwind CSS Logo" />
+            </div>
+          </a>
+
+          <a href="https://mui.com/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/mui.png" alt="Material-UI (MUI) Logo" />
+            </div>
+          </a>
+
+          <a href="https://git-scm.com/" target="_blank">
+            <div class="skill-container">
+              <img src="assets/git.png" alt="Git Logo" />
+            </div>
+          </a>
+
+          <a href="https://github.com/" target="_blank">
+            <div class="skill-container">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png"
+                alt="GitHub Logo"
+              />
+            </div>
+          </a>
+
+          <a href="https://www.postman.com/" target="_blank">
+            <div class="skill-container">
+              <img
+                src="assets/postman.png"
+                alt="Postman Logo"
+                style="width: 100px; height: 100px; margin-right: 0.8rem"
+              />
+            </div>
+          </a>
+
+          <a href="https://vercel.com/" target="_blank">
+            <div class="skill-container">
+              <img
+                src="assets/vercel-icon-512x449-3422jidz.png"
+                alt="Vercel Logo"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+
+    <section class="knowme" id="about">
+      <div class="know-data">
+        <div class="firstline-part">
+          <div class="image-part">
+            <img src="assets/waving doorway (1).png" alt="" />
+          </div>
+          <div class="activity-box">
+            <div class="activity-part">
+              <h1>✨ Beyond the Code</h1>
+              <p>
+                I'm a tech enthusiast and problem-solver who finds joy in coding
+                and creating. Beyond my technical endeavors, I embrace a variety
+                of interests and hobbies that fuel my curiosity and creativity.
+                Explore the world beyond the code and discover the exciting
+                pursuits that shape my journey.
+              </p>
+              <div class="activity-list">
+                <button
+                  class="hobbie"
+                  data-tooltip="Engaging in fitness routines and workouts."
+                >
+                  🏋️‍♂️ Fitness
+                </button>
+                <button
+                  class="hobbie"
+                  data-tooltip="Love to share ideas and things I learn through blogging."
+                >
+                  📝 Blogging
+                </button>
+                <button
+                  class="hobbie"
+                  data-tooltip="Exploring different music genres for relaxation and inspiration."
+                >
+                  🎵 Music
+                </button>
+                <button
+                  class="hobbie"
+                  data-tooltip="Participating in college debate competitions and honing speaking skills."
+                >
+                  🎤 Debating
+                </button>
+                <button
+                  class="hobbie"
+                  data-tooltip="Passionate about exploring new destinations, cultures, and different foods."
+                >
+                  🌍 Traveling
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-line">
+          <div class="work-contact">
+            <div class="content">
+              <h3>Let's create something amazing together</h3>
+              <p>
+                Excited to bring your next project to life? Let's collaborate
+                and explore how we can turn your vision into reality. Reach out,
+                and let's discuss how I can help you achieve your goals.
+              </p>
+            </div>
+            <a href="#contact"
+              ><button>
+                Contact Me
+                <i class="bx bxs-right-top-arrow-circle"></i></button
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact from -->
+
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <!-- Image Section -->
+        <div class="image-container">
+          <img src="assets/any questions (1).png" alt="Questions Image" />
+        </div>
+        <!-- Form Section -->
+        <div class="form">
+          <form id="contact-form">
+            <div class="input-box">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <label for="message">Enter your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message here..."
+                required
+              ></textarea>
+              <button type="submit">
+                Send Message <i class="bx bxs-send"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>
+            Copyright &copy; 2024 | Made with ❤️ by Pratik Tripathi |
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="icon-top">
+          <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
